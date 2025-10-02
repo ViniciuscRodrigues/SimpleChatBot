@@ -1,0 +1,23 @@
+# Ambiente Virtual
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de modelo de linguagem (MUITO IMPORTANTE)
+*.gguf
+*.bin
+
+# Arquivos de configuração do VSCode e outros editores
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
